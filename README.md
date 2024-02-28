@@ -65,3 +65,9 @@ Apart from training, hyperparameter search was conducted to select optimal value
 | 1e-2    | 0.972    | 0.973    | 0.971    | 0.969    | 0.964    | 0.954    | 0.945    |
 
 The resulting accuracy is higher than 80% of solutions according to e.g. [this](https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge/leaderboard) competition.
+
+## Monetization
+
+1. Automated toxicity detection can facilitate HR functions such as identifying and mitigating complience threats. For this reason, this model can be implemented as a part of moderation of bussiness communications (emails, corporate messengers). For example, a message will not be sent if any type of toxicity is detected. Psychological climat evaluation can also benefit from using this model. Such add-on to the messanger or email application can be sold for monthly subscription.
+
+2. Group chat bots. Nowadays, NLP-driven bots are common to be added to various chat groups in Telegram. The most popular ones are summarization bots that extract the most important points from the last N messages. Toxicity detection can also present interest, as being toxic among modern youth is often made fun of and thus more or less objective perspective might be fun. Access to such a bot may be granted as a part of premium subscription to telegram or with a single payment/donation. To advertize the bot, we can buy promo post in a pop channels on AI (e.g. https://t.me/gpt_news). Moreover, each public chat where the bot is added is an advertizing platform itself as more and more users will be exposed to its work and thus may express a desire to be able to add bot to another chat.
